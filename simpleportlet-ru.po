@@ -1,0 +1,256 @@
+# by Roman Susi, Hexagon IT Oy, 2009
+msgid ""
+msgstr ""
+"Project-Id-Version: Plone 2.5\n"
+"POT-Creation-Date: 2006-08-25 13:49+0000\n"
+"PO-Revision-Date: 2009-01-15 16:22+0300\n"
+"Last-Translator: Roman Susi <roman.susi@hexagonit.fi>\n"
+"Language-Team: Russian <tuki@hexagonit.fi>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language-Code: ru\n"
+"Language-Name: Russian\n"
+"Preferred-Encodings: latin1 utf-8\n"
+"Domain: SimplePortlet\n"
+
+#: ../skins/SimplePortlet/portlet_setup.pt
+#. <input class="context" i18n:attributes="value" tabindex="" tal:attributes="tabindex tabindex/next;" type="submit" value="Save"/>
+msgid "Save"
+msgstr "Сохранить"
+
+
+#: ../skins/SimplePortlet/portlet_setup.pt
+#. <p i18n:translate="description_portlet_1">
+#.  A portlet is one of these boxes that appear in the left and right colums (column one and column two). With this form you can control
+#. 	which of the available portlets should be displayed in either of the two columns.
+#. </p>
+msgid "description_portlet_1"
+msgstr "Портлет - это небольшой, самодостаточный фрагмент портала, его сменный компонент. Обычно портлеты размещаются по краям от основного содержимого. С помощью этой формы можно управлять показом портлетов."
+
+#: ../skins/SimplePortlet/portlet_setup.pt
+#. <p i18n:translate="description_portlet_2">
+#.  Choose either to display the portlets defined higher up the folder hierarchy or create a local definition.
+#. 	Choose 'use local definition' and leave the text box blank to display no portlets at all in that column.
+#. </p>
+msgid "description_portlet_2"
+msgstr "Вы можете сделать выбор между портлетами, определенными выше в иерархии папок, или создать локальное определение. Выберите 'использовать местное определение' и оставьте текстовое поле пустым, чтобы не показывать никаких портлетов в соответствующей колонке."
+
+#: ../skins/SimplePortlet/portlet_setup.pt
+#. <p i18n:translate="description_portlet_3">
+#.  These portlets are available:
+#. </p>
+msgid "description_portlet_3"
+msgstr "Доступны следующие портлеты:"
+
+
+#: ../skins/SimplePortlet/portlet_setup.pt
+#. <strong i18n:translate="heading_column_one">
+#.  Column one portlets:
+#. </strong>
+msgid "heading_column_one"
+msgstr "Портлеты левой колонки:"
+
+
+#: ../skins/SimplePortlet/portlet_setup.pt
+#. <strong i18n:translate="heading_column_two">
+#.  Column two portlets:
+#. </strong>
+msgid "heading_column_two"
+msgstr "Портлеты правой колонки:"
+
+
+#: ../skins/SimplePortlet/portlet_view.pt
+#. <strong i18n:translate="heading_display">
+#.  Display:
+#. </strong>
+msgid "heading_display"
+msgstr "Показываются:"
+
+
+#: ../skins/SimplePortlet/portlet_setup.pt
+#. <h1 i18n:translate="heading_portlet_setup">
+#.  Portlet Setup
+#. </h1>
+msgid "heading_portlet_setup"
+msgstr "Настройки портлета"
+
+
+#: ../skins/SimplePortlet/portlet_view.pt
+#. <strong i18n:translate="heading_position">
+#.  Position:
+#. </strong>
+# view Portlet (portlet_view)
+msgid "heading_position"
+msgstr "Позиция:"
+
+
+#: ../skins/SimplePortlet/portlet_view.pt
+#. <strong i18n:translate="heading_show_subfolders">
+#.  Show in subfolders:
+#. </strong>
+msgid "heading_show_subfolders"
+msgstr "Показывать в подпапках:"
+
+
+msgid "help_body"
+msgstr "Текст портлета"
+
+
+msgid "help_channel"
+msgstr "RSS-фид, из которого берётся материал для портлета"
+
+
+msgid "help_description"
+msgstr "Описание портлета"
+
+
+msgid "help_max_results"
+msgstr "Максимальное число выводимых записей"
+
+
+msgid "help_position"
+msgstr "Выберите, в какой колонке показывать портлет."
+
+
+msgid "help_show"
+msgstr "Показывать ли портлет?"
+
+
+msgid "help_showinsubfolders"
+msgstr "Показывать ли портлет?"
+
+
+msgid "help_style"
+msgstr "Стиль представления портлета."
+
+
+msgid "help_topic"
+msgstr "Тема, материалы которой показывать в портлете."
+
+
+msgid "label_body"
+msgstr "Содержимое"
+
+
+msgid "label_channel"
+msgstr "Канал"
+
+
+msgid "label_column_one"
+msgstr "Левая колонка"
+
+
+msgid "label_column_two"
+msgstr "Правая колонка"
+
+
+msgid "label_description"
+msgstr "Описание"
+
+
+#: ../skins/SimplePortlet/portlet_setup.pt
+#. <label for="inherit_columnOne" i18n:translate="label_inherit_parent">
+#.  Inherit from parent folder:
+#. </label>
+#. <label for="inherit_columnTwo" i18n:translate="label_inherit_parent">
+#.  Inherit from parent folder:
+#. </label>
+msgid "label_inherit_parent"
+msgstr "Наследовать от родительской папки:"
+
+
+#: ../skins/SimplePortlet/portlet_setup.pt
+#. <label for="lcl_columnOne" i18n:translate="label_local_definition">
+#.  Use local definition:
+#. </label>
+#. <label for="lcl_columnTwo" i18n:translate="label_local_definition">
+#.  Use local definition:
+#. </label>
+msgid "label_local_definition"
+msgstr "Использовать местное определение:"
+
+
+msgid "label_max_results"
+msgstr "Количество строк"
+
+
+msgid "label_position"
+msgstr "Позиция"
+
+
+msgid "label_show"
+msgstr "Видимо"
+
+
+msgid "label_showinsubfolders"
+msgstr "Показывать в подпапках"
+
+
+msgid "label_style"
+msgstr "Стиль"
+
+
+msgid "label_topic"
+msgstr "Тема"
+
+msgid "label_sorting_order"
+msgstr "Порядок"
+
+msgid "help_sorting_order"
+msgstr "В каком порядке показывать ссылки"
+
+msgid "As in feed"
+msgstr "Изначальный порядок"
+
+msgid "Publication date"
+msgstr "По дате побликации"
+
+
+#: ../skins/SimplePortlet/portlet_setup.pt
+#. <legend i18n:translate="legend_portlet_configuration">
+#.  Portlet configuration:
+#. </legend>
+msgid "legend_portlet_configuration"
+msgstr "Конфигурация портлета:"
+
+
+#: ../skins/SimplePortlet/portlet_view.pt
+#. <span i18n:translate="no" tal:condition="python:not here.getShow()">
+#.  no
+#. </span>
+msgid "no"
+msgstr "нет"
+
+
+#: ../skins/SimplePortlet/portlet_view.pt
+#. <span i18n:translate="yes" tal:condition="here/getShow">
+#.  yes
+#. </span>
+#. <span i18n:translate="yes" tal:condition="here/getShowinsubfolders">
+#.  yes
+#. </span>
+#. <span i18n:translate="yes" tal:condition="python:not here.getShowinsubfolders()">
+#.  no
+#. </span>
+msgid "yes"
+msgstr "да"
+
+msgid "label_feeds"
+msgstr "Адреса веб-фидов"
+
+msgid "help_feeds"
+msgstr "По одному адресу в строке. Пример адреса: http://www.fi/RSS"
+
+msgid "label_merge_feeds"
+msgstr "Объединить в единый список."
+
+msgid "help_merge_feeds"
+msgstr "Если выбрано, записи из веб-фидов объединяются в единый список."
+
+msgid "label_title_url"
+msgstr "Ссылка для заголовка"
+
+msgid "help_title_url"
+msgstr "Если задано, к заголовку добавляется ссылка на данный адрес."
