@@ -1004,7 +1004,7 @@ msgstr "Включить LiveSearch"
 
 #: plone.app.controlpanel/plone/app/controlpanel/security.py:32
 msgid "Enable User Folders"
-msgstr "Включить попки пользователей"
+msgstr "Включить папки пользователей"
 
 #: plone.app.controlpanel/plone/app/controlpanel/site.py:44
 msgid "Enable link integrity checks"
